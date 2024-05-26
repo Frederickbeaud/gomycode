@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background: url(./backhome.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+  
+}
+nav{
+    position: fixed;
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(24, 151, 109);
+    z-index: 9999;
+}
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+.menu li {
+    margin: 0 10px ;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.menu li a{
+   color: white;
+}
+.menu li a:hover,.menu li a.active{
+    color: rgb(255, 166, 0)!important;
+}
+main #home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.firsttext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.233);
+    border-radius: 20px;
+    height: 50%;
+    width: 50%;
+    margin-right: 20px;
+}
+.firsttext p{
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center!important;
+    line-height: 25px;
+    width: 100%;
+}
+img{
+    transform: rotate(-37deg) translateY(30%)  translateX(-10%);
+    z-index: -9999;
+   
+}
+.firstimage{
+    
+    overflow: hidden;
+}
+button{
+    width: 100px;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 15px;
+}
+#about{
+    width: 100%;
+    height: 510px!important;
+    background-color: white!important;
+    color: black;
+    padding: 30px;
+}
+#about h2{
+    text-align: center;
+    padding: 20px;
+}
+#work{
+    width: 100%;
+    padding: 30px;
+}
+#work h2{
+    text-align: center;
+}
+#work img{
+    float: left;
+
+}
+#work li{
+    margin: 20px;
+}
